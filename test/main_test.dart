@@ -12,6 +12,6 @@ void main() {
   testWidgets('Body text test', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
 
-    expect(find.text('Integración continua con Flutter'), findsOneWidget);
+    expect(find.text('Hola mundo!'), findsOneWidget);
   });
 }

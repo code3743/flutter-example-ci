@@ -15,9 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         key: scaffoldKey,
         appBar: AppBar(title: const Text('Clase desarrollo de software III')),
-        body: Center(
-          child: Text('Ejemplo de integración continua con Flutter'),
-        ),
+        body: Center(child: Text('Hola mundo!')),
       ),
     );
   }
