@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         key: scaffoldKey,
         appBar: AppBar(title: const Text('Clase desarrollo de software III')),
-        body: Center(child: Text('Hola mundo!')),
+        body: Center(child: Text('prueba')),
       ),
     );
   }
